@@ -1,0 +1,190 @@
+@charset "utf-8";
+/* CSS Document */
+body
+{
+	margin:0px;
+	padding:0px;
+}
+#header
+{
+	width:100%;
+	height:100px;
+	border-bottom: 2px solid #E9E9E9;
+}
+
+.header-inner
+{
+	width:1024px;
+	height:100px;
+	background:white;
+	margin:auto;
+	overflow:hidden;
+}
+.logo
+{
+	float:left;
+	padding-top:5px;
+}
+.active
+{
+	color:#5089B2;
+}
+.menu
+{
+	float:left;
+	margin: 27px -25px;
+	font-family:Open Sans,"Helvetica Neue",Helvetica,sans-serif;
+	font-weight:bold;
+	font-size:12px;
+}
+.menu ul
+{
+list-style:none;
+
+}
+.menu ul li
+{
+float:left;	
+}
+.menu ul li a
+{
+	padding:11px;
+	color:#AEC95E;
+	margin:auto;
+	text-decoration:none;
+	font-size:12px;
+}
+.menu ul li a:hover
+{
+	color:#5089B2;
+}
+#slider
+{
+	min-height:600px;
+	margin:auto;
+	margin-bottom: 50px;
+	text-align:center;
+	
+}
+.container
+{
+	text-align:center;
+	padding-top:0px;
+}
+.container h1
+{
+	color:#307BD1;
+}
+.container hr
+{
+	width:150px;
+	margin:auto;
+	margin-top: 20px;
+}
+.container img
+{
+	margin:0px 15px 15px 0px;
+}
+.destinations
+{
+	background: url(../img/bg.jpg) no-repeat center;
+	text-align:center;
+	min-height: 700px;
+	color:#FFFFFF;
+	margin:auto;
+	padding: 101px 0px 0px 0px;
+}
+.destinations img
+{
+	margin-right:25px;
+
+}
+.destinations hr
+{
+	width:100px;
+	margin-top:-15px;
+}
+.blog
+{
+	background:#F8F8F8;
+	margin:auto;
+	margin-top:75px;
+	width:900px;
+	height:300px;
+	font-size:15px;
+	line-height: 30px;
+	margin-bottom: 30px;
+}
+.blog img
+{
+	width:400px;
+	height:300px;
+	float:right;
+	margin: -219px 7px 0px 0px;
+}
+.blog-two
+{
+	background:#F8F8F8;
+	margin:auto;
+	margin-top:30px;
+	width:900px;
+	height:300px;
+	font-size:15px;
+	line-height: 30px;
+	margin-bottom: 115px;
+}
+.blog-two img
+{
+	width:400px;
+	height:300px;
+	float:left;
+	margin: 0px 92px 0px 0px;
+}
+#contact
+{
+	height:400px;
+	background:url(../img/sample_building.jpg) center;
+	color:#FFFFFF;
+	margin:auto;
+	text-align:center;
+	
+}
+#contact iframe
+{
+	margin: 50px 508px 0px 0px;
+}
+.abc
+{
+	font-family:Open Sans,"Helvetica Neue",Helvetica,sans-serif;
+	font-size: 14px;
+	text-align: right;
+	margin: -302px 175px 0px 0px;
+	
+}
+.abc h2
+{
+	font-family:Roboto,"Helvetica Neue",Helvetica,sans-serif;
+}
+#footer
+{
+	height:75px;
+	background:#1B4485;
+	font-size: 14px;
+	font-family:  Open Sans,"Helvetica Neue",Helvetica,sans-serif;
+	margin:auto;
+	padding: 0px;
+	
+}
+.copyright
+{
+	text-align:left;
+	padding: 37px 0px 0px 257px;
+	color: #fff;
+}
+.developer
+{
+	text-align:right;
+	color:#fff;
+	padding: 0px 351px 0px 0px;
+	margin: -26px -53px 0px 0px;
+}
